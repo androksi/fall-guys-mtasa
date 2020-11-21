@@ -1,0 +1,10 @@
+<meta>
+    <info author="drawrec" type="script" name="Fall Guys - Game" version="1.0" />
+    <min_mta_version client="1.5.7" server="1.5.7" />
+
+    <script src="server/game.lua" type="server" />
+    <script src="client/ui.lua" type="client" />
+
+    <export function="createGame" type="server" />
+    <export function="prepareGame" type="server" />
+</meta>

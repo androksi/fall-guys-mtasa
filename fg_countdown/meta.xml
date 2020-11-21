@@ -1,0 +1,14 @@
+<meta>
+    <info author="drawrec" type="script" name="Fall Guys - Countdown" version="1.0" />
+    <min_mta_version client="1.5.7" server="1.5.7" />
+
+    <script src="server/sync.lua" type="server" />
+    <script src="client/text.lua" type="client" />
+
+    <file src="assets/images/0.png" />
+    <file src="assets/images/1.png" />
+    <file src="assets/images/2.png" />
+    <file src="assets/images/3.png" />
+
+    <export function="syncCountdown" type="server" />
+</meta>

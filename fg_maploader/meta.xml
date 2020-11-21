@@ -1,0 +1,14 @@
+<meta>
+    <info author="drawrec" type="script" name="Fall Guys - Map Loader" version="1.0" />
+    <min_mta_version client="1.5.7" server="1.5.7" />
+
+    <script src="server/loader.lua" type="server" />
+    <script src="client/creator.lua" type="client" />
+
+    <export function="loadMap" type="server" />
+    <export function="unloadMap" type="server" />
+    <export function="createMap" type="server" />
+    <export function="removeMap" type="server" />
+    <export function="getMapSpawns" type="server" />
+    <export function="getMapFinishPoint" type="server" />
+</meta>
